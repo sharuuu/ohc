@@ -8,7 +8,7 @@ MAINTAINER Mehmet Arziman
 COPY ./nginx/openhabcloud_nginx.conf /opt/bitnami/nginx/conf/vhosts/my_vhost.conf
 #COPY ./nginx/openhabcloud_nginx.conf /opt/bitnami/nginx/conf/server_blocks
 
-COPY ./nginx/fullchain.pem /etc/ssl/ohc-sharu.duckdns.org/fullchain.pem
-COPY ./nginx/privkey.pem /etc/ssl/ohc-sharu.duckdns.org/privkey.pem
+COPY ./nginx/fullchain.pem /etc/ssl/fullchain.pem
+COPY ./nginx/privkey.pem /etc/ssl/privkey.pem
 
 

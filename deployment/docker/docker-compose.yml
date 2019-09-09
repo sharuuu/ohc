@@ -26,8 +26,8 @@ services:
         networks:
         - ohcloud-network
         volumes:
-        - /data/db
-        - /data/configdb
+        - /data/db:/data/db
+        - /data/configdb:/data/configdb
         restart: always
     redis:
         container_name: redis
